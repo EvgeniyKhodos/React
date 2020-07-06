@@ -1,6 +1,6 @@
-let employers = ['Alex', '', 'ludmila', 'Viktor', '', 'oleg', 'iNna', 'Ivan', 'Alex', 'Olga', ' Ann'];
+const employers = ['Alex', '', 'ludmila', 'Viktor', '', 'oleg', 'iNna', 'Ivan', 'Alex', 'Olga', ' Ann'];
 
-let employersNames = [];
+const employersNames = [];
 for (let i = 0; i < employers.length; i++) {
 	if (employers[i].length > 0 && employers[i].length != '') {
 		employersNames.push(employers[i]);
@@ -10,7 +10,7 @@ for (let i = 0; i < employersNames.length; i++) {
 	employersNames[i] = employersNames[i].toLowerCase().trim();
 }
 
-let sponsors = {
+const sponsors = {
     cash: [40000, 5000, 30400, 12000],
     eu: ['SRL', 'PLO', 'J&K'],
     rus: ['RusAuto', 'SBO']
